@@ -10,7 +10,23 @@ body {
   background: #15181a;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
-
+@media (max-width: 1000px) {
+  .mobile{
+    height: 100vh;
+    background-image: url("images/lobo-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+  }
+  .mobile h1{
+    padding-top: 60%;
+    top: 50%;
+  }
+  .mobile .text-center{
+    height: 100vh;
+  }
+}
 .skw-pages {
   overflow: hidden;
   position: relative;
